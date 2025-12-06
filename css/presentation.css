@@ -16,10 +16,9 @@
     padding:  0;
 }
 
-/* position container so the back button can be absolutely placed */
 .presentation-page { position: relative; }
 
-/* Back button (Retour) */
+/*Button Retour */
 .presentation-page .back-button {
     position: absolute;
     top: 22px;
@@ -48,7 +47,7 @@
     .presentation-page .back-button { top: 12px; left: 12px; padding: 6px 10px; font-size: 0.95rem; }
 }
 
-/* PAGE TITLE */
+
 .presentation-page .page-title {
     text-align: center;
     padding: 40px 20px 20px;
@@ -61,7 +60,7 @@
     margin: 0;
 }
 
-/* INTRO SECTION */
+
 .presentation-page .intro-section {
     max-width: 1000px;
     margin: 30px auto;
@@ -75,7 +74,7 @@
     line-height: 1.8;
 }
 
-/* IMAGE CONTAINER */
+
 .presentation-page .image-container {
     max-width: 1000px;
     margin: 40px auto;
@@ -91,7 +90,7 @@
     object-fit: cover;
 }
 
-/* OBJECTIVES SECTION */
+
 .presentation-page .objectives-section {
     max-width: 1200px;
     margin: 60px auto;
@@ -107,7 +106,7 @@
     font-weight: 700;
 }
 
-/* VALUES GRID */
+
 .presentation-page .values-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -154,14 +153,14 @@
     margin: 0;
 }
 
-/* VALUES SECTION */
+
 .presentation-page .values-section {
     max-width: 1200px;
     margin: 60px auto;
     padding: 0 20px;
 }
 
-/* VALUE ITEMS (for core values) */
+
 .presentation-page .value-item {
     background: linear-gradient(135deg, rgba(212, 175, 55, 0.06), rgba(26, 26, 46, 0.85));
     border: 2px solid rgba(212, 175, 55, 0.3);

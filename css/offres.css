@@ -7,7 +7,7 @@
     --text-light: #e0e0e0;
 }
 
-/* OFFRES PAGE - position relative for overlay header */
+/* OFFRES PAGE*/
 .offres-page {
     background: linear-gradient(var(--dark-bg), rgba(4,9,30,0.55)),
                 url("https://i.pinimg.com/1200x/d3/87/99/d387996735c2328f9ece3fab6dfa847d.jpg") center/cover no-repeat;
@@ -17,12 +17,12 @@
 
 
 
-/* Desktop parallax for header background */
+
 @media (min-width: 1025px) {
     .offres-header { background-attachment: fixed; }
 }
 
-/* Header left - company name */
+
 .offres-header-left h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -31,7 +31,7 @@
     margin: 0;
 }
 
-/* Back button in header */
+
 .offres-back-btn {
     display: inline-flex;
     align-items: center;
@@ -53,7 +53,7 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
 }
 
-/* PAGE TITLE */
+
 .offres-page .page-title {
     text-align: center;
     padding: 40px 20px 20px;
@@ -72,7 +72,7 @@
     margin: 0;
 }
 
-/* OFFRES GRID */
+
 .offres-page .offres-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -83,7 +83,7 @@
     perspective: 1000px;
 }
 
-/* ===== KEYFRAME ANIMATIONS - Simplified ===== */
+
 @keyframes slideInUp {
     from {
         opacity: 0;
@@ -105,26 +105,7 @@
 }
 
 
-/* OFFRE CARD - Dynamic Presentation */
-.offres-page .offre-card {
-    background: linear-gradient(135deg, rgba(212, 175, 55, 0.06), rgba(26, 26, 46, 0.9));
-    border: 2px solid var(--primary-color);
-    border-radius: 12px;
-    overflow: visible;
-    text-align: center;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    animation: slideInUp 0.6s ease-out forwards;
-    opacity: 0;
-    position: relative;
-    background-clip: padding-box;
-    z-index: 1;
-}
 
-/* Staggered animation for each card */
 .offres-page .offre-card:nth-child(1) { animation-delay: 0.1s; }
 .offres-page .offre-card:nth-child(2) { animation-delay: 0.2s; }
 .offres-page .offre-card:nth-child(3) { animation-delay: 0.3s; }
@@ -132,7 +113,7 @@
 .offres-page .offre-card:nth-child(5) { animation-delay: 0.5s; }
 .offres-page .offre-card:nth-child(6) { animation-delay: 0.6s; }
 
-/* Hover effects - Simple Dynamic transformation */
+
 .offres-page .offre-card:hover {
     transform: translateY(-8px) scale(1.03);
     box-shadow: 0 12px 30px rgba(212, 175, 55, 0.25), 
@@ -143,7 +124,7 @@
     z-index: 10;
 }
 
-/* ===== OFFRE IMAGE - Simple Dynamic Effects ===== */
+
 .offres-page .offre-image {
     width: 100%;
     height: 200px;
@@ -169,7 +150,7 @@
     display: none;
 }
 
-/* ===== OFFRE CARD CONTENT ===== */
+
 .offres-page .offre-card h3 {
     color: var(--primary-color);
     font-size: 1.4rem;

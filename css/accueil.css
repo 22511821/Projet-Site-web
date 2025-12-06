@@ -82,7 +82,7 @@ body {
     box-shadow: 0 6px 15px rgba(212, 175, 55, 0.4);
 }
 
-/* ACCUEIL PAGE */
+
 .accueil-page {
     display: flex;
     flex-direction: column;
@@ -178,7 +178,7 @@ body {
     .nav-link { padding: 6px 10px; font-size: 0.8rem; }
 }
 
-/* Enable fixed background on desktop for subtle parallax */
+
 @media (min-width: 1025px) {
     .accueil-page { background-attachment: fixed; }
 }
