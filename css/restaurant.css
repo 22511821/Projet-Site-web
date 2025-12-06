@@ -1,8 +1,11 @@
 /* Restaurant page styles */
 .restaurant-page {
-    background: var(--dark-bg);
+    background: linear-gradient(var(--dark-bg), rgba(4,9,30,0.55)),
+                url("https://i.pinimg.com/736x/60/51/79/605179e0c8df6a8c3037193697fb8c7b.jpg") center/cover no-repeat;
     background-attachment: scroll;
+    padding:  0;
 }
+
 .restaurant-page .page-title{text-align:center;padding-bottom:10px}
 .restaurant-page .menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;max-width:1200px;margin:20px auto}
 .restaurant-page .menu-item{position:relative;overflow:hidden;border-radius:8px;aspect-ratio:1;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer;transition:transform .35s}
